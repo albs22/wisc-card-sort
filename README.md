@@ -6,9 +6,9 @@ A card sort web application specifically designed for iPad and Webkit browsers t
 http://cardsort.us
 
 Developed By:
-Alex Behlen - Sencah Touch application / Web Service
-Greg Hagen - Web Service and DB
-Austin Kolgie - Graphics and Design
+* Alex Behlen - Sencah Touch application / Web Service
+* Greg Hagen - Web Service and DB
+* Austin Kolgie - Graphics and Design
 
 UWSP CNMT 480 2011
 
