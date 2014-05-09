@@ -1,0 +1,404 @@
+/***************************************************************************************************/
+/**************************************  MAIN MENU CSS START  **************************************/
+/*Styles logo image(card sort log) on main screen intial load */
+.main-img
+{
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 10px 5px #999999;
+    border-radius: 40px 43px 46px 39px; /* top-left, top-right, bottom-right, bottom-left  */
+}
+
+.screenShot-img
+{
+    width: 92%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    margin-right: 4%;
+    margin-left: 4%;
+    box-shadow: 11px 11px 6px #999999;
+    border-radius: 6% 7.5% 6% 6%; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.iPadSimpleSort
+{
+}
+
+.iPadTakeSurvey
+{
+}
+
+.iPadCreateSurvey
+{
+}
+
+.iPadViewResults
+{
+}
+
+/* MAIN TEXT */
+.loadTextMain
+{
+    margin: 2.5%;
+    color: #595959;
+    font-size: 22px;
+}
+
+/* MAIN MENU TEXT WITHIN ALL OTHER PANELS*/
+.loadText
+{
+    margin: 2.5%;
+    margin-left: 4%;
+    color: #595959;
+    font-size: 18px;
+}
+
+/* MAIN MENU BUTTONS (LEFT) ----------- */
+.mainButtons
+{
+    border-radius: 0px;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFF;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6699CC), to(#333399));
+    font-size: 22px;
+    border: none;
+}
+.mainButtons:active
+{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333399), to(#6699CC));
+    color: #FFCC00;
+}
+/* sencha touch adjustment */
+.main-button-pressed
+{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333399), to(#6699CC));
+}
+
+/* Panel holding the menu options */
+.buttonPanel
+{
+    width: 30%;
+    max-height: 100%;
+}
+/* ------------------------------------ */
+
+/* PANEL WHICH HOLDS ALL OTHER CONTENT */
+.mainPanels
+{
+    width: 70%;
+    height: 100%;
+}
+
+/* GREEN BUTTON AT THE BOTTOM WICH TAKES YOU TO THE NEXT PAGE */
+.contentButtons
+{
+    bottom: 0;
+    position: absolute;
+    margin: 10px 2.5%;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+.infoIcon
+{
+	background-image: '/info2.png';
+  -webkit-mask-image: inline-image('/info2.png');
+
+}
+/**************************************  MAIN MENU CSS END  ******************************************/
+
+
+/**************************************  SIMPLE SORT CSS START  **************************************/
+/* CATEGORY BANNER AT TOP */
+.categoryContainer
+{
+    height: 53px;
+    border-style: solid;
+    border-color: Gray;
+    border-width: 1px;
+    width: 170px;
+}
+
+.addCategoryBtn
+{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+
+
+/* DROPZONE DIVS */
+.dropContainer
+{
+    width: 171px;
+    height: 578px;
+    border-style: solid;
+    border-color: Gray;
+    border-width: 1px;
+}
+
+/* DROP ZONES (ODD ROWS) */
+.dropZone1
+{
+    background: #C0CCCC;
+    width: 168px;
+    text-align: center;
+	  padding-top: 10px;
+	  padding-left: 10px;
+	
+}
+
+/* DROP ZONES (EVEN ROWS) */
+.dropZone2
+{
+    background: #FCFCFC;
+    width: 168px;
+    text-align: center;
+	  padding-top: 10px;
+	  padding-left: 10px;
+}
+
+.addCardButton
+{
+    margin: 0px 0px 0px 8px;
+    height: 70px;
+    width: 110px;
+}
+
+/* CARDS */
+.draggableCard
+{
+    /*height: is controled within the code*/
+    width: 135px;
+    background: #F7D708;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding-top: 19px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+.draggableCard2
+{
+	width: 140px;
+    background: #F7D708;
+    padding-top: 19px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+/* CARD CONTAINER AT THE BOTTOM */
+.cardContainer
+{
+    background: #dddddd;
+    max-width: 1024px;
+}
+
+/**************************************  SIMPLE SORT CSS END  ****************************************/
+
+
+/**************************************  TAKE SURVEY CSS START  **************************************/
+
+.categoryColumn
+{
+    background: #c5dde88;
+}
+
+/* Used to style categories on CREATE PAGE*/
+.createCategory
+{
+    background: #183D62;
+    width: 220px;
+    padding: 15px;
+    margin: 18px;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 5px;
+	  color: white;
+}
+
+
+
+
+
+/*Styles categories loaded from array. Take Page */
+.addCategory
+{
+    background: #183D62;
+    color: #FFF;
+    height: 53px;
+    width: 171px;
+    padding: 15px;
+    border-color: Gray;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+	
+}
+
+/* CARDS */
+.card
+{
+    /*height: is controled within the code*/
+    width: 140px;
+    background: #FFFF00;
+    margin: 8px;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+/* Demographics Components */
+
+/* Panel contains all demographic fields */
+.demographicsPanel
+{
+	background: #c5dde88;
+}
+
+/* Contains all selection fields */
+.demographicsFields
+{
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+
+}
+
+.beginTestButton
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	height: 150;
+}
+
+
+
+/**************************************  TAKE SURVEY CSS END  ******************************************/
+
+
+/**************************************  CREATE SURVEY CSS START  **************************************/
+
+
+.addPanel
+{
+    margin-left: 10px;
+}
+
+.plusButton
+{
+    background: #EDEDED;
+    background: url('../../img/UnPressedADDbtn.png');
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 46px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: none;
+}
+.plusButton:active
+{
+    background: url('../../img/PressedADDbtn.png');
+}
+
+
+/* Used to style cards on CREATE PAGE */
+/*Not used */
+.createCard
+{
+    background: #F7D708;
+    width: 190px;
+    padding: 15px;
+    margin: 18px;
+    margin-top: 5px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+
+.createCategories
+{
+    background: #d7deea;  /*dadada*/
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding-bottom: 615px;
+}
+
+.createCards
+{
+   background: #d7deea;  /*dadada*/
+   margin-top: 10px;
+   border-radius: 8px;
+  
+}
+
+/* CATEGORY TEXT BOX */
+.newCatTextBox
+{
+    margin-left: 22px;
+}
+
+/* CARD TEXT BOX */
+.newCardTextBox
+{
+    margin-left: 22px;
+}
+
+/* SURVEY INFORMATION FORM */
+.fieldPanel
+{
+   background: #d7deea;  /*dadada*/
+   margin-top: 10px;
+   margin-left: 10px;
+   border-radius: 8px;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-bottom: 1px;
+}
+
+.textFields
+{
+    margin-top: 0px;
+}
+
+.shareCodeField
+{
+  background: white;
+}
+.fieldset
+{
+    margin-top: 0px;
+}
+
+.icon-img
+{
+    width: 335px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+	  padding-bottom: 50px;
+}
+/**************************************  CREATE SURVEY CSS END  ***************************************/
+
+/**************************************  VIEW RESULTS CSS START  **************************************/
+
+/**************************************  VIEW RESULTS CSS END  ****************************************/
+/******************************************************************************************************/
